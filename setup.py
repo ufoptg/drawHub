@@ -5,7 +5,7 @@ setup(
   name = 'phlogo',        
   packages = ['phlogo'],
   include_package_data=True,
-  version = '0.6',    
+  version = '0.7',    
   license='MIT',     
   description = 'Pornhub Logo Generator', 
   author = 'Krypton Byte',                  
@@ -14,7 +14,7 @@ setup(
   download_url = 'https://github.com/krypton-byte/drawHub/archive/0.0.1.tar.gz',    
   keywords = ['pornhub', 'logo', 'generator'], 
   install_requires=[           
-          'pillow',
+          'pillow>=10.3.0',
       ],
   classifiers=[
     'Development Status :: 3 - Alpha',      
