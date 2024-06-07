@@ -1,7 +1,7 @@
 from PIL import Image, ImageDraw, ImageFont
 import os
 
-font = ImageFont.truetype(os.path.dirname(file) + "/expressway rg.ttf", 110)
+font = ImageFont.truetype(os.path.dirname(__file__) + "/expressway rg.ttf", 110)
 
 def add_corners(im, rad):
     circle = Image.new('L', (rad * 2, rad * 2), 0)
